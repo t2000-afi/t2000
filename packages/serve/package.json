@@ -46,7 +46,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@mysten/sui": "^2.17.0",
+    "@mysten/sui": "^2.33.0",
     "@t2000/sui-x402": "workspace:*"
   },
   "devDependencies": {
@@ -55,7 +55,7 @@
     "eslint": "^9",
     "tsup": "^8",
     "typescript": "^5",
-    "typescript-eslint": "^8.58.0",
+    "typescript-eslint": "^8.70.1",
     "vitest": "^3"
   },
   "license": "MIT"
