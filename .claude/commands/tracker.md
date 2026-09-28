@@ -10,7 +10,7 @@ Log the slice just shipped to `audric-build-tracker.md`: **$ARGUMENTS**
 A reverse-chronological **execution log** — one `S.N` entry per shipped slice,
 newest at the top. It is the audit trail, **NOT** a forward backlog (that's
 `HANDOFF_NEXT_AGENT.md`). It's gitignored here — the real file lives in the private
-`mission69b/t2000-internal` repo, mounted at `spec/`.
+`t2000-afi/t2000-internal` repo, mounted at `spec/`.
 
 ## Steps
 

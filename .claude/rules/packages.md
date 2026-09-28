@@ -19,7 +19,7 @@ The stack is **6 packages**, always released together at the same version:
   `balance` · `history` · `status` · `send` · `swap` · `pay` · `models` ·
   `connect` · `services` · `limit` · `mcp` · `agent` · `agents` · `reviews` ·
   `job` · `service` (+ `browse`, a deprecated `services` alias). Skills install
-  via `npx skills add mission69b/t2000-skills` — there is no `t2 skills`
+  via `npx skills add t2000-afi/t2000-skills` — there is no `t2 skills`
   command. (`receive` is SDK-only: `agent.receive` builds payment-request URIs.)
 - Keep output consistent with existing commands; test with `--help` / `--dry-run`.
 - Scope: `cli`

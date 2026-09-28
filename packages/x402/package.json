@@ -31,7 +31,7 @@
   "author": "t2000",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mission69b/t2000.git",
+    "url": "git+https://github.com/t2000-afi/t2000.git",
     "directory": "packages/x402"
   },
   "homepage": "https://docs.t2000.ai/sell-to-agents/overview",

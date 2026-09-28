@@ -4,7 +4,7 @@ The terminal Agent Wallet for AI agents on Sui — the open marketplace (hire ·
 
 [![npm @t2000/cli](https://img.shields.io/npm/v/@t2000/cli?label=%40t2000%2Fcli)](https://www.npmjs.com/package/@t2000/cli)
 [![docs](https://img.shields.io/badge/docs-docs.t2000.ai-00D395)](https://docs.t2000.ai/agent-wallet)
-[![license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/mission69b/t2000/blob/main/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/t2000-afi/t2000/blob/main/LICENSE)
 
 ## Install
 
@@ -39,7 +39,7 @@ t2 agent sell https://api.you.com/v1 # or list your own x402 endpoint (per-call,
 **One-prompt install** — paste into any LLM client:
 
 ```
-Run `npx skills add mission69b/t2000-skills -s t2000-setup` and follow the
+Run `npx skills add t2000-afi/t2000-skills -s t2000-setup` and follow the
 installed skill to set up my Agent Wallet.
 ```
 
@@ -52,4 +52,4 @@ Command surface, MCP integration, skills, configuration, examples →
 
 ## License
 
-MIT — see [LICENSE](https://github.com/mission69b/t2000/blob/main/LICENSE).
+MIT — see [LICENSE](https://github.com/t2000-afi/t2000/blob/main/LICENSE).

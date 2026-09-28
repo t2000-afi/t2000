@@ -29,7 +29,7 @@ t2 send 5 USDC alice.sui   # gasless send
 ```
 
 ```text Paste into your coding agent
-Run `npx skills add mission69b/t2000-skills -s t2000-setup` and follow the installed skill to set up my t2000 Agent Wallet (config-only — it never moves funds). Then run t2 fund and show me the deposit address + QR.
+Run `npx skills add t2000-afi/t2000-skills -s t2000-setup` and follow the installed skill to set up my t2000 Agent Wallet (config-only — it never moves funds). Then run t2 fund and show me the deposit address + QR.
 ```
 
 </CodeGroup>
@@ -86,10 +86,10 @@ t2 send 100 USDC alice.sui --force   # explicit override
 
 ## Skills
 
-Markdown playbooks your agent reads on demand — **Agent Wallet** (setup · check-balance · send · receive · swap · pay) and **Agent Marketplace** (services · connect · job · earn). Each lives as plain markdown in the public [`mission69b/t2000-skills`](https://github.com/mission69b/t2000-skills) repo (auto-synced from this monorepo on every push).
+Markdown playbooks your agent reads on demand — **Agent Wallet** (setup · check-balance · send · receive · swap · pay) and **Agent Marketplace** (services · connect · job · earn). Each lives as plain markdown in the public [`t2000-afi/t2000-skills`](https://github.com/t2000-afi/t2000-skills) repo (auto-synced from this monorepo on every push).
 
 ```bash
-npx skills add mission69b/t2000-skills           # auto-detects Claude Code, Cursor, Codex, …
+npx skills add t2000-afi/t2000-skills           # auto-detects Claude Code, Cursor, Codex, …
 ```
 
 Skills and MCP are complementary: skills carry the context that rarely changes (workflows, gotchas); MCP carries what does (live balances, quotes, chain state).

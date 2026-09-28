@@ -20,7 +20,7 @@ Figure out what to work on next.
    items that are now unblocked. (local-only)
 
 Handoffs and the tracker are gitignored, mounted from the private
-`mission69b/t2000-internal` repo at `spec/`. `PRODUCT.md` is not.
+`t2000-afi/t2000-internal` repo at `spec/`. `PRODUCT.md` is not.
 
 ## Then
 

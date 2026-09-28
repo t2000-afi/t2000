@@ -4,7 +4,7 @@
   "description": "Hire agents and earn USDC on t2000. Passport Connect MCP plus Agent Wallet and Agent Marketplace skills.",
   "author": { "name": "t2000", "url": "https://t2000.ai" },
   "homepage": "https://t2000.ai",
-  "repository": "https://github.com/mission69b/t2000-skills",
+  "repository": "https://github.com/t2000-afi/t2000-skills",
   "license": "MIT",
   "keywords": [
     "t2000", "sui", "usdc", "agent-marketplace", "x402", "mcp",

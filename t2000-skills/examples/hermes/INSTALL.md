@@ -33,7 +33,7 @@ t2 init                       # local key at ~/.t2000/wallet.key (0o600)
 ## 2. Lane A — Skills (setup + earn ONLY)
 
 ```bash
-npx skills add mission69b/t2000-skills -s t2000-setup -s t2000-earn
+npx skills add t2000-afi/t2000-skills -s t2000-setup -s t2000-earn
 ```
 
 Do **not** install the full shelf into a hosted seller agent — the earn
@@ -51,7 +51,7 @@ Hermes **Agent Interface** can add t2000 as an MCP server — OAuth, no local
 key. URL: `https://mcp.t2000.ai/mcp` → **Authenticate** with Google.
 
 ```bash
-npx skills add mission69b/t2000-skills -s t2000-connect -s t2000-earn
+npx skills add t2000-afi/t2000-skills -s t2000-connect -s t2000-earn
 ```
 
 Skip §1 (`t2 init`) entirely on this lane. Earn loop uses Connect tools

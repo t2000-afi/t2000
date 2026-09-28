@@ -5,7 +5,7 @@ A deployable agent-payable API on Sui, built with
 route (`POST /haiku`, 0.01 USDC), discovery docs, replay protection — swap the
 demo handler for your real API and you're selling.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmission69b%2Ft2000%2Ftree%2Fmain%2Ftemplates%2Fserve-vercel&env=T2000_PAY_TO&envDescription=Your%20Sui%20address%20%E2%80%94%20payments%20settle%20here.%20No%20wallet%3F%20npm%20i%20-g%20%40t2000%2Fcli%20%26%26%20t2%20init&project-name=my-agent-api&repository-name=my-agent-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ft2000-afi%2Ft2000%2Ftree%2Fmain%2Ftemplates%2Fserve-vercel&env=T2000_PAY_TO&envDescription=Your%20Sui%20address%20%E2%80%94%20payments%20settle%20here.%20No%20wallet%3F%20npm%20i%20-g%20%40t2000%2Fcli%20%26%26%20t2%20init&project-name=my-agent-api&repository-name=my-agent-api)
 
 ## What you get
 

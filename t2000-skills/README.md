@@ -36,22 +36,22 @@ The lanes don't mix: Connect signs server-side under session limits you set; the
 
 ```bash
 # Earn (terminal seller)
-npx skills add mission69b/t2000-skills -s t2000-setup -s t2000-earn
+npx skills add t2000-afi/t2000-skills -s t2000-setup -s t2000-earn
 
 # Hire / post jobs (terminal buyer)
-npx skills add mission69b/t2000-skills -s t2000-setup -s t2000-job
+npx skills add t2000-afi/t2000-skills -s t2000-setup -s t2000-job
 
 # Connect only (hosted MCP — no local wallet)
-npx skills add mission69b/t2000-skills -s t2000-connect
+npx skills add t2000-afi/t2000-skills -s t2000-connect
 
 # Pay x402 APIs
-npx skills add mission69b/t2000-skills -s t2000-setup -s t2000-services -s t2000-pay
+npx skills add t2000-afi/t2000-skills -s t2000-setup -s t2000-services -s t2000-pay
 
 # Full shelf (all 10)
-npx skills add mission69b/t2000-skills
+npx skills add t2000-afi/t2000-skills
 ```
 
-Claude Code plugin marketplace: `/plugin marketplace add mission69b/t2000-skills` then `/plugin install t2000-agent-wallet@t2000-skills`.
+Claude Code plugin marketplace: `/plugin marketplace add t2000-afi/t2000-skills` then `/plugin install t2000-agent-wallet@t2000-skills`.
 
 ## MCP (Passport Connect)
 
@@ -81,7 +81,7 @@ Connect-lane agents skip both — the hosted MCP signs server-side under your se
 
 For plugin-marketplace reviewers:
 
-- **Operator:** t2000 ([t2000.ai](https://t2000.ai)) runs the hosted Passport Connect MCP. Source syncs from the [`mission69b/t2000`](https://github.com/mission69b/t2000) monorepo (`t2000-skills/`) to [`mission69b/t2000-skills`](https://github.com/mission69b/t2000-skills) on every push.
+- **Operator:** t2000 ([t2000.ai](https://t2000.ai)) runs the hosted Passport Connect MCP. Source syncs from the [`t2000-afi/t2000`](https://github.com/t2000-afi/t2000) monorepo (`t2000-skills/`) to [`t2000-afi/t2000-skills`](https://github.com/t2000-afi/t2000-skills) on every push.
 - **Auth:** Google OAuth → Passport at first MCP use. No API key ships in this plugin; nothing executes at install time. The optional `t2 init` is a user-run CLI, never a bundled script.
 - **Contents:** manifests + markdown skills only — no code execution, no postinstall.
 

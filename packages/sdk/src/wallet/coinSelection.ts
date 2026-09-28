@@ -151,7 +151,7 @@ export async function selectAndSplitCoin(
   // "Invalid bcs bytes for TransactionData". The fullnode parses it fine — only
   // Enoki can't (yet). So under sponsorship we source from discrete coin objects
   // and surface a clear error when the user's funds are address-balance-only.
-  // See github.com/mission69b/t2000 issue #93.
+  // See github.com/t2000-afi/t2000 issue #93.
   if (options.sponsoredContext) {
     return selectCoinObjectsOnly(
       tx,

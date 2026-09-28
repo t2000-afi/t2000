@@ -107,7 +107,7 @@ Connect an AI client:
                                        Claude, Cursor, or any MCP client, then approve
                                        with Google — no install, no key in the client,
                                        spend limits you set.
-  $ npx skills add mission69b/t2000-skills   Optional agent playbooks (GitHub)
+  $ npx skills add t2000-afi/t2000-skills   Optional agent playbooks (GitHub)
 
 Models (Audric — a separate product, billed in credit):
   $ t2 models                          List the Audric Private Inference model catalog

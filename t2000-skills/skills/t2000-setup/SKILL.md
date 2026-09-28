@@ -34,7 +34,7 @@ Get a fresh user from "nothing installed" to "Agent Wallet ready" in under 5
 minutes, via this skill:
 
 ```
-Run `npx skills add mission69b/t2000-skills -s t2000-setup` and follow the
+Run `npx skills add t2000-afi/t2000-skills -s t2000-setup` and follow the
 installed skill to set up my Agent Wallet.
 ```
 

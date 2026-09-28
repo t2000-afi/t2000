@@ -16,7 +16,7 @@ patched with that app, not as an npm package.
 
 **Do NOT open a public GitHub issue for security vulnerabilities.**
 
-**GitHub Security Advisories** (preferred): [Report a vulnerability](https://github.com/mission69b/t2000/security/advisories/new)
+**GitHub Security Advisories** (preferred): [Report a vulnerability](https://github.com/t2000-afi/t2000/security/advisories/new)
 
 Include: a description, steps to reproduce, potential impact, and a suggested fix
 if you have one.

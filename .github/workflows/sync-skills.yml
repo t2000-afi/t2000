@@ -26,7 +26,7 @@ jobs:
       - name: Checkout skills repo
         uses: actions/checkout@v6
         with:
-          repository: mission69b/t2000-skills
+          repository: t2000-afi/t2000-skills
           token: ${{ secrets.SKILLS_SYNC_TOKEN }}
           path: skills-repo
 

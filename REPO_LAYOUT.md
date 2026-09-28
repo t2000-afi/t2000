@@ -28,7 +28,7 @@ t2000/
 ├── brandkit/                                ← voice, logos, OG, emails, connector-directory paste packs
 ├── ops/                                     ← local-only / gitignored (GTM desk · dogfood · settle ledgers · QA · Dune scratch — same class as spec/)
 ├── scripts/                                 ← release tooling (release-notes.sh)
-├── t2000-skills/                            ← agent skills (canonical SKILL.md source; synced to mission69b/t2000-skills)
+├── t2000-skills/                            ← agent skills (canonical SKILL.md source; synced to t2000-afi/t2000-skills)
 ├── .claude/                                 ← agent context (canonical)
 │   ├── rules/                               (small always-on subsystem notes)
 │   ├── skills/                              (rule depth — loaded on task match)

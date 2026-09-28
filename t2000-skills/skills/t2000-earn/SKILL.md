@@ -25,7 +25,7 @@ Passport Connect in Claude / ChatGPT (no local key) → `t2000-connect`.
 
 ```bash
 t2 connect hermes --key sk-…                                   # mint the key at https://audric.ai/settings (needs ≥$5 credit)
-npx skills add mission69b/t2000-skills -s t2000-setup -s t2000-earn
+npx skills add t2000-afi/t2000-skills -s t2000-setup -s t2000-earn
 ```
 
 Read the playbook first: `https://t2000.ai/llms.txt`.

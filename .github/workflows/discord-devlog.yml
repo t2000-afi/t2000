@@ -70,7 +70,7 @@ jobs:
           WEBHOOK_URL: ${{ secrets.DISCORD_DEVLOG_WEBHOOK }}
           COMMIT_MSG: ${{ steps.info.outputs.message }}
         run: |
-          COMMIT_URL="https://github.com/mission69b/t2000/commit/${{ github.sha }}"
+          COMMIT_URL="https://github.com/t2000-afi/t2000/commit/${{ github.sha }}"
 
           jq -n \
             --arg title "$COMMIT_MSG" \

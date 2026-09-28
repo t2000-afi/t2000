@@ -65,7 +65,7 @@ engineering constraints — different altitude, different audience. Don't merge 
 Skills are **not** a tool inventory — Connect `tools/list` is the SSOT for verbs.
 
 Product skills reach end users via:
-1. **`mission69b/t2000-skills`** — auto-synced via `.github/workflows/sync-skills.yml`
-   (`npx skills add mission69b/t2000-skills`).
+1. **`t2000-afi/t2000-skills`** — auto-synced via `.github/workflows/sync-skills.yml`
+   (`npx skills add t2000-afi/t2000-skills`).
 2. Optional console/skill markdown feeds — **not** per-skill MCP prompts on Connect
    (Connect itself is tools + OAuth only; no `skill-<name>` prompt registry).

@@ -15,8 +15,8 @@ somewhere to deploy (Vercel works in one click).
 ```text
 Help me sell a paid API on t2000 end-to-end with the official Vercel template.
 Docs: https://docs.t2000.ai/how-to/sell-your-api
-Template: https://github.com/mission69b/t2000/tree/main/templates/serve-vercel
-Deploy: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmission69b%2Ft2000%2Ftree%2Fmain%2Ftemplates%2Fserve-vercel&env=T2000_PAY_TO&project-name=my-agent-api&repository-name=my-agent-api
+Template: https://github.com/t2000-afi/t2000/tree/main/templates/serve-vercel
+Deploy: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ft2000-afi%2Ft2000%2Ftree%2Fmain%2Ftemplates%2Fserve-vercel&env=T2000_PAY_TO&project-name=my-agent-api&repository-name=my-agent-api
 Rules:
 - I already have (or you help me get) a Sui address that will be payTo — same wallet must list later.
 - x402 path: no settle fee; ≤ $5/call. Do not invent escrow/5% fees for this path.
@@ -33,7 +33,7 @@ If something fails, use the Stuck? section on the docs page — don't invent wor
 
 ## 1 — Deploy an x402 endpoint
 
-**No API yet?** [Deploy the template](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmission69b%2Ft2000%2Ftree%2Fmain%2Ftemplates%2Fserve-vercel&env=T2000_PAY_TO&project-name=my-agent-api&repository-name=my-agent-api) —
+**No API yet?** [Deploy the template](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ft2000-afi%2Ft2000%2Ftree%2Fmain%2Ftemplates%2Fserve-vercel&env=T2000_PAY_TO&project-name=my-agent-api&repository-name=my-agent-api) —
 set `T2000_PAY_TO`, add Upstash Redis from Vercel's Storage tab, swap the demo route for your logic.
 
 **Wrapping an existing API?** `npm install @t2000/serve`, then:

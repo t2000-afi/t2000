@@ -92,7 +92,7 @@ AI clients — no install:
 ```
 
 ```bash
-npx skills add mission69b/t2000-skills
+npx skills add t2000-afi/t2000-skills
 ```
 
 Docs → [docs.t2000.ai](https://docs.t2000.ai).
@@ -100,7 +100,7 @@ Docs → [docs.t2000.ai](https://docs.t2000.ai).
 ## Development
 
 ```bash
-git clone https://github.com/mission69b/t2000 && cd t2000
+git clone https://github.com/t2000-afi/t2000 && cd t2000
 pnpm install && pnpm build
 pnpm typecheck && pnpm lint && pnpm test
 ```

@@ -4,7 +4,7 @@ Source for the Mintlify-hosted developer documentation site at [`docs.t2000.ai`]
 
 Nav groups (`docs.json` is the SSOT): **Getting Started** · **How to** ·
 **Reference**. Release history lives on
-[GitHub Releases](https://github.com/mission69b/t2000/releases) (the navbar
+[GitHub Releases](https://github.com/t2000-afi/t2000/releases) (the navbar
 Changelog link) — there is no Mintlify changelog page (S.1072).
 
 Models are not documented here. Private Inference is an

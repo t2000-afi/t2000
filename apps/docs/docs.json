@@ -80,11 +80,11 @@
       },
       {
         "label": "Changelog",
-        "href": "https://github.com/mission69b/t2000/releases"
+        "href": "https://github.com/t2000-afi/t2000/releases"
       },
       {
         "label": "GitHub",
-        "href": "https://github.com/mission69b/t2000"
+        "href": "https://github.com/t2000-afi/t2000"
       },
       {
         "label": "audric.ai",
@@ -94,7 +94,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/mission69b/t2000",
+      "github": "https://github.com/t2000-afi/t2000",
       "x": "https://x.com/t2000ai"
     },
     "links": [
@@ -132,11 +132,11 @@
         "items": [
           {
             "label": "GitHub",
-            "href": "https://github.com/mission69b/t2000"
+            "href": "https://github.com/t2000-afi/t2000"
           },
           {
             "label": "Skills",
-            "href": "https://github.com/mission69b/t2000-skills"
+            "href": "https://github.com/t2000-afi/t2000-skills"
           },
           {
             "label": "Audric (consumer)",

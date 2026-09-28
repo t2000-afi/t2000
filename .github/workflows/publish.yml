@@ -239,10 +239,10 @@ jobs:
 
           PAYLOAD=$(jq -n \
             --arg title "t2000 ${RELEASE_VERSION} released" \
-            --arg url "https://github.com/mission69b/t2000/releases/tag/${RELEASE_VERSION}" \
+            --arg url "https://github.com/t2000-afi/t2000/releases/tag/${RELEASE_VERSION}" \
             --arg desc "$NOTES" \
             --arg update '```npm update @t2000/cli -g```' \
-            --arg links "[npm](https://www.npmjs.com/package/@t2000/cli) · [GitHub](https://github.com/mission69b/t2000/releases/tag/${RELEASE_VERSION}) · [Docs](https://t2000.ai/docs)" \
+            --arg links "[npm](https://www.npmjs.com/package/@t2000/cli) · [GitHub](https://github.com/t2000-afi/t2000/releases/tag/${RELEASE_VERSION}) · [Docs](https://t2000.ai/docs)" \
             --arg ts "$TIMESTAMP" \
             '{embeds: [{title: $title, url: $url, color: 55951, description: $desc, fields: [{name: "Update", value: $update, inline: false}, {name: "Links", value: $links, inline: false}], footer: {text: "t2000.ai"}, timestamp: $ts}]}')
 

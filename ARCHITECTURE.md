@@ -286,9 +286,9 @@ included. The tool inventory SSOT is Connect `tools/list`
 registry. Rich results are MCP Apps cards (one shared shell, read paint only).
 
 **Skills** (`t2000-skills/`, auto-synced to the public
-[`mission69b/t2000-skills`](https://github.com/mission69b/t2000-skills) repo on
+[`t2000-afi/t2000-skills`](https://github.com/t2000-afi/t2000-skills) repo on
 every push) are markdown playbooks any skill-reading agent can follow. They
-install locally via `npx skills add mission69b/t2000-skills` — optional; Connect
+install locally via `npx skills add t2000-afi/t2000-skills` — optional; Connect
 needs no skills.
 
 ---
