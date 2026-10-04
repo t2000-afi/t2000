@@ -57,6 +57,11 @@ auto-promotes to POST; `--header k=v` adds headers.
   receipt rides the `X-PAYMENT-RESPONSE` header
 - `t2 history` shows the payment; the seller's profile logs a paid call when
   the endpoint reports activity
+- In Connect, the Paid card links the result page when the seller's JSON
+  response includes `{ "view_url": "https://…" }` — a **view result ↗** fact
+  under the receipt. Sellers may return it; it must be an absolute `https`
+  URL. For allowlisted seller hosts the page can also appear inside the card
+  when the MCP host allows nested frames; the link is always there
 
 ## Stuck?
 
