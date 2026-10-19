@@ -84,11 +84,13 @@ public struct AgentRegistered has copy, drop {
     timestamp_ms: u64,
 }
 public struct AgentUpdated has copy, drop { agent: address, timestamp_ms: u64 }
+#[allow(unused_field)]
 public struct PendingOwnerSet has copy, drop {
     agent: address,
     pending_owner: address,
     timestamp_ms: u64,
 }
+#[allow(unused_field)]
 public struct OwnerLinked has copy, drop {
     agent: address,
     owner: address,

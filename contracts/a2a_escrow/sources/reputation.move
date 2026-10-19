@@ -339,6 +339,7 @@ public fun submit_first_review<T>(
 
 /// Every later review — and star EDITS (same buyer re-rating the same job):
 /// touches only this seller's score, so unrelated reviews run in parallel.
+#[allow(lint(prefer_mut_tx_context))]
 public fun submit_review<T>(
     score: &mut AgentScore,
     job: &Job<T>,

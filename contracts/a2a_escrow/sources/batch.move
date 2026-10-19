@@ -617,6 +617,7 @@ public fun batch_refund<T>(
 /// active seat (`reputation::on_job_delivered`) AND this wave's per-agent
 /// hold in the same tx — a `maxClaimsPerAgent: 1` wave becomes
 /// re-claimable the moment the work ships, not when the buyer settles.
+#[allow(lint(prefer_mut_tx_context))]
 public fun deliver_v2<T>(
     batch: &mut BatchOpening<T>,
     job: &mut Job<T>,

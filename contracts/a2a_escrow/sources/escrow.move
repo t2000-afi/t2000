@@ -709,6 +709,7 @@ public(package) fun record_score_board_pkg(cfg: &mut FeeConfig, board_id: ID) {
 }
 
 // === Deliver (seller posts proof before the deadline) ===
+#[allow(lint(prefer_mut_tx_context))]
 public fun deliver<T>(
     job: &mut Job<T>,
     delivery_hash: vector<u8>,
